@@ -1,0 +1,81 @@
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+input,button:focus{
+  outline: none;
+}
+.main-width{
+  max-width: 900px;
+  margin: auto;
+}
+
+.color{
+  background-color: #E9ECEF;
+}
+/* header area start here  */
+/* Breadcrumb area start here  */
+.header-area{
+  background-color: #E3F2FD;
+}
+header.header-area img {
+  height: 48px;
+}
+
+.header-area ul li a{
+  cursor: pointer !important;
+}
+/* Breadcrumb area end here  */
+/* header area end here  */
+.Breadcrumb-area ol{
+  background-color: #E9ECEF;
+  
+}
+
+/* banner area start here  */
+.banner-area img{
+  height: 490px;
+}
+/* banner area end here  */
+/* alert area start here  */
+.alert-design{
+  padding: 4px 15px !important;
+  color: #195A28;
+}
+
+/* alert area end here  */
+/* progress area area start here  */
+.progress-area .progress{
+  margin-bottom: 10px;
+}
+/* progress area area end here  */
+
+.accordion-button::after {
+  display: none;
+}
+.accordion-area button{
+  width: fit-content;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  
+}
+.accordion-area h2{
+  border-bottom: 1px solid #ddd;
+}
+.accordion-area button a{
+  text-decoration: none;
+  color: #007BFF !important;
+  font-weight: 500;
+  font-size: 18px;
+}
+.accordion-area button a:hover{
+  text-decoration: underline;
+}
+
+
+
+.tab-area{
+  position: ;
+}
