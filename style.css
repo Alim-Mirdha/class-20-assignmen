@@ -1,3 +1,4 @@
+/* **************DEFUALT CSS ************** */
 a{
   text-decoration: none;
 }
@@ -11,46 +12,63 @@ input,button:focus{
   max-width: 900px;
   margin: auto;
 }
-
+h1,h2,h3,h4,h5,h6,P,span{
+  margin: 0 !important;
+  padding: 0 !important;
+}
 .color{
   background-color: #E9ECEF;
 }
-/* header area start here  */
-/* Breadcrumb area start here  */
+/* **************DEFUALT CSS END************** */
+/* **************header area start here************** */
 .header-area{
   background-color: #E3F2FD;
 }
-header.header-area img {
-  height: 48px;
+.header-area img {
+  height: 46px;
 }
 
 .header-area ul li a{
   cursor: pointer !important;
 }
-/* Breadcrumb area end here  */
-/* header area end here  */
+
+/* **************header area END here************** */
+/* **************Breadcrumb area START here************** */
 .Breadcrumb-area ol{
   background-color: #E9ECEF;
   
 }
+.Breadcrumb-area {
+  margin: 33px 0 0;
+}
 
-/* banner area start here  */
+/* **************Breadcrumb area end here************** */
+/* **************banner area start here************** */
 .banner-area img{
-  height: 490px;
+  height: 460px;
 }
-/* banner area end here  */
-/* alert area start here  */
-.alert-design{
-  padding: 4px 15px !important;
-  color: #195A28;
+/* **************banner area END here************** */  
+/* **************alert area start here ************** */  
+.aleart-area {
+  margin: 32px 0 45px;
+}
+.alert-design {
+  padding: 12px 16px !important;
+}
+.alert-design h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.alert-design p {
+  font-size: 12px;
+}
+/* **************alert area END here ************** */  
+/* **************progress area area start here************** */  
+.progress-area .progress {
+  margin-bottom: 6px;
+  height: 13px !important;
 }
 
-/* alert area end here  */
-/* progress area area start here  */
-.progress-area .progress{
-  margin-bottom: 10px;
-}
-/* progress area area end here  */
 
 .accordion-button::after {
   display: none;
@@ -64,18 +82,37 @@ header.header-area img {
 .accordion-area h2{
   border-bottom: 1px solid #ddd;
 }
-.accordion-area button a{
+.accordion-area button a {
   text-decoration: none;
   color: #007BFF !important;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 14px;
 }
 .accordion-area button a:hover{
   text-decoration: underline;
 }
+/* **************progress area area END here************** */  
+/* **************Live demo area start here************** */  
+.demo-item button {
+  font-size: 12px;
+}
+.btn-size {
+  font-size: 12px;
+}
+/* **************Live demo area end here************** */  
+/* **************Live demo area end here************** */  
+.section-6 {
+  padding: 19px 0 20px;
+}
+.height{
+  height: 225px;
+  overflow: 0;
+}
+/* **************Live demo area end here************** */  
 
-
-
-.tab-area{
-  position: ;
+.progress-items .progress{
+  margin-bottom: 10px;
+}
+.footer {
+  padding: 13px;
 }
